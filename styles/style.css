@@ -57,7 +57,7 @@
   z-index: 2;
 }
 
-.header__square-pic {
+.header__blue-square-pic {
   background-color: #2f80ed;
   height: 568px;
   width: 568px;
@@ -75,6 +75,24 @@
   left: 64px;
   z-index: 1;
 }
+
+.description {
+  display: flex;
+}
+
+.two-columns {
+  width: 80%;
+  min-width: 784px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.two-columns__brief {
+}
+
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
