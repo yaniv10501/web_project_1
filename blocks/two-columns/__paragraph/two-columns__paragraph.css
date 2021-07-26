@@ -1,0 +1,8 @@
+.two-columns__pargraph {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.two-columns__pargraph:first-child {
+  margin-top: 0;
+}
