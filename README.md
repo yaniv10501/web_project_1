@@ -2,7 +2,7 @@
 
 The 2nd project of my journey of becoming a front end developer.
 
-## Learing How to Learn WebSite
+## Learing How to Learn Website
 
 __Brief:__ A single page website with animations, tables, lists and flex containers, with file structure according to the BEM methodology.
 
