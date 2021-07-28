@@ -1,19 +1,44 @@
-@keyframes rotation {
+@-webkit-keyframes rotation {
 
   from {
 
-    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+
+            transform: rotate(-15deg);
 
   }
 
   to {
 
-    transform: rotate(345deg);
+    -webkit-transform: rotate(345deg);
+
+            transform: rotate(345deg);
+
+  }
+
+}
+
+@keyframes rotation {
+
+  from {
+
+    -webkit-transform: rotate(-15deg);
+
+            transform: rotate(-15deg);
+
+  }
+
+  to {
+
+    -webkit-transform: rotate(345deg);
+
+            transform: rotate(345deg);
 
   }
 
 }
 
 .rotation {
-  animation: rotation 20s linear 0s infinite normal none;
+  -webkit-animation: rotation 20s linear 0s infinite normal none;
+          animation: rotation 20s linear 0s infinite normal none;
 }
