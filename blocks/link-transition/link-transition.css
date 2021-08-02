@@ -1,8 +1,8 @@
 .link-transition {
-    opacity: 1;
-    transition: opacity 0.2s ease-out .1s;
+  opacity: 1;
+  transition: opacity 0.2s ease-out .1s;
 }
 
 .link-transition:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
