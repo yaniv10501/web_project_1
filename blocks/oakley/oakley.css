@@ -3,4 +3,12 @@
   display: flex;
   justify-content: center;
   padding-top: 160px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+  .oakley {
+    padding-top: 100px;
+    max-width: 320px;
+  }
 }

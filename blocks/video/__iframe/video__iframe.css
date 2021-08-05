@@ -7,3 +7,15 @@
 .video__iframe:first-of-type {
   margin-right: 20px;
 }
+
+@media screen and (max-width: 700px) {
+  .video__iframe {
+    width: 320px;
+    height: 180px;
+  }
+
+  .video__iframe:first-of-type {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

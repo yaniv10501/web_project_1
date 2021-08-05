@@ -9,3 +9,13 @@
 .cards__item:nth-child(3n) {
   margin-right: 0;
 }
+
+@media screen and (max-width: 700px) {
+  .cards__item {
+    margin: auto;
+  }
+
+  .cards__item:nth-child(3n) {
+    margin: auto;
+  }
+}

@@ -6,3 +6,11 @@
   font-weight: bold;
   z-index: 3;
 }
+
+@media screen and (max-width: 700px) {
+  .header__title {
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 90px 0 20px 64px;
+  }
+}

@@ -5,3 +5,13 @@
   font-weight: normal;
   margin: 16px 0 0 0;
 }
+
+@media screen and (max-width: 700px) {
+  .cards__description {
+    margin-bottom: 20px;
+  }
+
+  .cards__item:last-of-type > .cards__description {
+    margin-bottom: 0;
+  }
+}
