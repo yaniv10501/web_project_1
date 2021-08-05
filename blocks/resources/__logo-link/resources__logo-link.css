@@ -2,3 +2,13 @@
     width: 270px;
     height: 38px;
 }
+
+@media screen and (max-width: 700px) {
+  .resources__logo-link {
+    margin-bottom: 26px;
+  }
+
+  .resources__logo-link:last-of-type {
+    margin-bottom: 0;
+  }
+}

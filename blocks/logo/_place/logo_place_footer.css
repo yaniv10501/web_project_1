@@ -3,3 +3,9 @@
   width: 183px;
   height: 35px;
 }
+
+@media screen and (max-width: 700px) {
+  .logo_place_footer {
+    transform: scale(0.8);
+  }
+}
