@@ -2,6 +2,8 @@
 
 The 2nd project of my journey of becoming a front end developer.
 
+[Link to website](https://yaniv10501.github.io/web_project_1/)
+
 ## Learing How to Learn Website
 
 __Brief:__ A single page website with animations, tables, lists and flex containers, with file structure according to the BEM methodology.
