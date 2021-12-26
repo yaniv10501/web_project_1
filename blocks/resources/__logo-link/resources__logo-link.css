@@ -15,6 +15,7 @@
 
 @media screen and (max-width: 700px) {
   .resources__logo-link {
+    width: 270px;
     margin-bottom: 26px;
   }
 
