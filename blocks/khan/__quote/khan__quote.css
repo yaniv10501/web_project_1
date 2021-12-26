@@ -5,3 +5,9 @@
   font-weight: normal;
   margin: 50px 0 36px 0;
 }
+
+@media screen and (max-width: 517px) {
+  .khan__quote {
+    font-size: 18px;
+  }
+}

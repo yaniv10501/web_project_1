@@ -1,6 +1,14 @@
 .footer__columns {
   width: 90%;
   margin: 60px auto 40px auto;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 270px 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__columns {
+    margin: 30px auto 10px auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

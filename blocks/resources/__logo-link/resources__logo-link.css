@@ -1,6 +1,16 @@
 .resources__logo-link {
-    width: 270px;
-    height: 38px;
+  display: flex;
+  width: 270px;
+  height: 38px;
+}
+
+@media screen and (max-width: 1082px) {
+  .resources__logo-link {
+    width: 50%;
+  }
+  .resources__logo-link:nth-of-type(2) {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 700px) {

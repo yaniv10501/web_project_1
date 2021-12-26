@@ -1,4 +1,33 @@
 .footer__column {
+  min-width: 115px;
   display: flex;
   flex-direction: column;
+}
+
+.footer__column:first-child {
+  margin-right: 25px;
+}
+
+.footer__column:last-child {
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__column {
+    margin-bottom: 30px;
+  }
+
+  .footer__column:last-child {
+    margin: 0 0 30px 0;
+  }
+
+  .footer__column:first-child {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  .footer__column:first-child {
+    margin-bottom: 25px;
+  }
 }

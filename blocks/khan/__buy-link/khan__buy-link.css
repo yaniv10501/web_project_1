@@ -8,3 +8,9 @@
   align-self: flex-start;
 }
 
+@media screen and (max-width: 517px) {
+  .khan__buy-link {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}

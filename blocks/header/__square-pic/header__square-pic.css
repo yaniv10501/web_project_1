@@ -9,10 +9,26 @@
   transform: rotate(-15deg);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1203px) {
   .header__square-pic {
-    height: 284px;
-    width: 284px;
-    top: 394px;
+    height: 480px;
+    width: 480px;
+    top: 124px;
+  }
+}
+
+@media screen and (max-width: 837px) {
+  .header__square-pic {
+    height: 350px;
+    width: 350px;
+    top: 294px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .header__square-pic {
+    height: 230px;
+    width: 230px;
+    top: 450px;
   }
 }

@@ -4,3 +4,9 @@
   font-weight: bold;
   margin: 0;
 }
+
+@media screen and (max-width: 517px) {
+  .khan__title {
+    font-size: 32px;
+  }
+}

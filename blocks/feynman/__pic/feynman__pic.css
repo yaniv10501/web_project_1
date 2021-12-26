@@ -7,9 +7,30 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1393px) {
   .feynman__pic {
-    width: 320px;
-    height: 180px;
+    width: 722.5px;
+    height: 530.85px;
+  }
+}
+
+@media screen and (max-width: 1152px) {
+  .feynman__pic {
+    width: 578px;
+    height: 424.7px;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .feynman__pic {
+    width: 433.5px;
+    height: 318.45px;
+  }
+}
+
+@media screen and (max-width: 517px) {
+  .feynman__pic {
+    width: 289px;
+    height: 212.35px;
   }
 }
